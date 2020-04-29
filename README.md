@@ -31,17 +31,10 @@ Here is the main protocol that main.cpp uses for uWebSocketIO in communicating w
 
 **OUTPUT**: values provided by the c++ program to the simulator
 
-["estimate_x"] <= kalman filter estimated position x
-
-["estimate_y"] <= kalman filter estimated position y
-
-["rmse_x"]
-
-["rmse_y"]
-
-["rmse_vx"]
-
-["rmse_vy"]
+BLUE = Radar Data
+RED = Lidar Data
+GREEN = EKF Estimated Output (Result)
+![](./result/sim2.gif)
 
 ---
 
