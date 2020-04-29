@@ -30,7 +30,7 @@ Here is the main protocol that main.cpp uses for uWebSocketIO in communicating w
 
 
 **OUTPUT**: values provided by the c++ program to the simulator
-
+![](./result/sim.png)
 BLUE = Radar Data
 RED = Lidar Data
 GREEN = EKF Estimated Output (Result)
